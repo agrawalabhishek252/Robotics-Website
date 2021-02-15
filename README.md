@@ -1,3 +1,6 @@
+ <<<<<<< master 
+# Robotics-Website
+=======
 # Robotics-Website
 Original Site:
  https://vssutrobotics.in
@@ -5,3 +8,4 @@ Original Site:
  Beta Site:
   https://vssutrobotics.github.io/Robotics-Website/ 
 
+ >>>>>>> master

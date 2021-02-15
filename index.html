@@ -1,3 +1,4 @@
+
   <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -8,6 +9,7 @@
         <meta name="description" content="Vssut Robotics Website ">
         
         <meta name="author" content="Vssut Robotics">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 		
         <title>Vssut Robotics | Where Imagination Meets Innovation</title>
 		
@@ -37,21 +39,24 @@
 		<!-- Media Queries -->
         <link rel="stylesheet" href="css/media-queries.css">
         <link href="css/flipping_gallery.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/scrollbar.css">
+		<!-- custom CSS -->
+		<link rel="stylesheet" href="css2/custom.css">
          <!--
 		Google Font
 		=========================== -->                    
 		
 		<!-- Oswald / Title Font -->
-		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
 		<!-- Ubuntu / Body Font -->
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
 		<link href="https://icons8.com">
 			
 		
 		<!-- Modernizer Script for old Browsers -->		
                 <script src="js/modernizr-2.6.2.min.js" ></script>
         
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js" ></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js" ></script>
   		<script type="text/javascript" src="js/jquery.flipping_gallery.js" ></script>
         
 		<script async>
@@ -166,7 +171,9 @@
 					<span></span>
 					<span></span>
 				</nav>
-
+				<section id="section04" class="demo">
+					<a href="#navigation"><span></span>Scroll</a>
+				</section>
 			</div><!-- /slider-wrapper -->
 		</section>
 		<!--/#home section-->
@@ -187,11 +194,24 @@
 					<!-- /responsive nav button -->
 					
 					<!-- logo -->
-                    <a class="navbar-brand" href="#body">
+                    <!-- <a class="navbar-brand" href="#body">
 						<h1 id="logo">
 							<img src="img/robotics1.png" alt="VssutRobotics" />
 						</h1>
-					</a>
+					</a> -->
+					<!-- /logo -->
+					<!-- logo -->
+					<div class="row navbar-brand">
+					    <div class="col-sm-2" style="float: left;margin-top: 5px; margin-right: 5px;" >
+							    <a class="" href="#body" id="scrollUp-logo">
+								 <img src="img/robotics1.png" alt="VssutRobotics" />
+							</a>
+						</div>
+						<div id="" class="col-m-10" style="margin-left:20px;font-size: 20px;text-align: center;">
+							<a class="logo" href="#body" id="scrollUp-name"> VSSUT Robotics</a>
+						</div>		
+				   </div>	
+	
 					<!-- /logo -->
                 </div>
 
@@ -206,10 +226,10 @@
                         <li><a href="#services">Gallery</a></li>
                        <!-- <li><a href="#our-alumni">Our Alumni</a></li>-->
                        <!-- <li><a href="#blog">Blog</a></li>-->
-                        <li><a href="#contact-us">Contact</a></li>
+						<li><a href="#contact-us">Contact</a></li>
                         <!-- <li><a href="event.html">Samavesh</a></li>-->
                        <!-- <li><a href="javascript:void(0);" onclick="document.getElementById('id01').style.display='block'">Register</a></li>-->
-                    </ul>
+					</ul>
                 </nav>
 				<!-- /main nav -->
 				
@@ -227,70 +247,125 @@
 		<!-- section title -->
 					
 				
-		<section id="about" class="bg-one">
-			<div class="container">
-				<div class="row">
-				
+		<section id="about" class="bg-one col-lg-12">
+			<!-- Container -->
+			<div class="container col-lg-12">
+				<!-- Our Mission -->
+				<div class="row col-lg-3">
+		
 					<!-- section title -->
-					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-						<h2>Our<span class="color">  Mission</span></h2>
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+						<h2>Our
+							<span class="color"> Mission</span>
+						</h2>
 						<div class="border"></div>
 					</div>
 					<!-- /section title -->
-					
+		
 					<!-- About item -->
-					<div class="col-md-12 text-center wow fadeInUp" data-wow-duration="500ms" >
-						<div class="wrap-about">							
+					<div class="col-md-12 text-center wow fadeInUp" data-wow-duration="500ms">
+						<div class="wrap-about">
 							<!--<div class="icon-box">
-								<i class="fa fa-lightbulb-o fa-4x"></i>
-							</div>	-->				
+																				<i class="fa fa-lightbulb-o fa-4x"></i>
+																			</div>	-->
 							<!-- Express About Yourself -->
-							<div class="about-content text-center">
-								<!--<h3 class="ddd">We're Creative</h3>	-->							
-								<p>With the dawn of 21st century and scientific advancements at its peak ,sitting with a book and reading about scientific endeavours is too mainstream. The time demands more from us and we are up for the challenge . We are enthusiastic enough to take this opportunity and make a great deal of it. We all succour the ways in which robotics can change the world. Being the avid tech geeks that we are, we can see the positive economic and cultural potential that the technology can offer. Our mission is one- to make the best innovation of the ideas one possesses.</p>
+							<div class="about-content text-left">
+								<!--<h3 class="ddd">We're Creative</h3>	-->
+								<p>With the dawn of 21st century and scientific advancements at its peak ,sitting with a book and reading about scientific
+									endeavours is too mainstream. The time demands more from us and we are up for the challenge . We are enthusiastic
+									enough to take this opportunity and make a great deal of it. We all succour the ways in which robotics can change
+									the world. Being the avid tech geeks that we are, we can see the positive economic and cultural potential that the
+									technology can offer. Our mission is one- to make the best innovation of the ideas one possesses.</p>
 							</div>
 						</div>
-					</div> 
+					</div>
 				</div>
-					<!-- End About item -->
-					<div class="row">
-					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-						<h2>What We<span class="color">  Do</span></h2>
+				<!--End Our Mission -->
+
+				<!-- What We Do -->
+				<div class="row col-lg-3">
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+						<h2>What We
+							<span class="color"> Do</span>
+						</h2>
 						<div class="border"></div>
 					</div>
 					<!-- About item -->
 					<div class="col-md-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
 						<div class="wrap-about">
 							<!--<div class="icon-box">
-								<i class="fa fa-users fa-4x"></i>
-							</div>-->
+															<i class="fa fa-users fa-4x"></i>
+														</div>-->
 							<!-- Express About Yourself -->
-							<div class="about-content text-center">
+							<div class="about-content text-left">
 								<!--<h3>We're Professional</h3>-->
-								<p>VSSUT Robotics Society provides students with resources and ample support to develop products which will make people lives easier. Over the years, it has not failed once to make its presence felt. Be it the outstanding performances at Robocon or invigorating the primordial ideas of freshers. It fosters and prunes every innovative mind.We love to play with MECHANICAL designs, dope them with the ELECTRONICS components and feel the Automation come alive with few lines of CODING. The society offers indispensable guidance, workshops and tutorials along with tools, equipment, components and workspace to the students of the university.Mentioning of team work! Individual commitment to a group effort-that is what makes,a team work, a company work, this Robotics society work. This is not merely a club of an institute, this is what a family looks like in a technical university.</p>
-							</di,
-						</div>
-					</div> 
-					<!-- End About item -->
-					
-					<!-- About item -->					
-					<!--<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-						<div class="wrap-about kill-margin-bottom">
-							<div class="icon-box">
-								<i class="fa fa-users fa-4x"></i>
+								<p>VSSUT Robotics Society provides students with resources and ample support to develop products which will make people
+									lives easier. Over the years, it has not failed once to make its presence felt. Be it the outstanding performances
+									at Robocon or invigorating the primordial ideas of freshers. It fosters and prunes every innovative mind.We love to
+									play with MECHANICAL designs, dope them with the ELECTRONICS components and feel the Automation come alive with few
+									lines of CODING. The society offers indispensable guidance, workshops and tutorials along with tools, equipment, components
+									and workspace to the students of the university.Mentioning of team work! Individual commitment to a group effort-that
+									is what makes,a team work, a company work, this Robotics society work. This is not merely a club of an institute,
+									this is what a family looks like in a technical university.</p>
 							</div>
-							<!-- Express About Yourself -->
-							<!--<div class="about-content text-center">
-								<h3>We're Professional</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
-							</div>-->
 						</div>
 					</div>
 					<!-- End About item -->
-					
+		
+					<!-- About item -->
+					<!--<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+													<div class="wrap-about kill-margin-bottom">
+														<div class="icon-box">
+															<i class="fa fa-users fa-4x"></i>
+														</div>
+														<!-- Express About Yourself -->
+					<!--<div class="about-content text-center">
+															<h3>We're Professional</h3>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
+														</div>
+													</div>
+												</div>-->
+					<!-- Intro Video -->
+		
+					<!-- End About item -->
+		
 					<!-- End row -->
-		 	<!-- End container -->
-		</section>   <!-- End section -->
+				</div>
+				<!-- End What We Do -->
+
+				<!-- Hear Us Loud -->
+				<div class="row col-lg-6">
+		
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+						<h2>Hear Us
+							<span class="color"> Loud</span>
+						</h2>
+						<div class="border"></div>
+					</div>
+					
+					<div class="col-lg-12 wow fadeInRight" data-wow-duration="500ms">
+						<div class="embed-responsive embed-responsive-16by9 youtube">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RhroZl45nQo?autoplay=1&vq=tiny" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							 allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<!-- Social Buttons -->
+					<div class="col-lg-12" style="text-align: center">
+						<a href="https://www.youtube.com/channel/UCfrM26pYkyk8JtW-G0mcDNQ" target="_blank" class="btn btn-danger" role="button" style="margin-left: px">Watch More</a>
+						<a href="https://www.facebook.com/vssutrobotics/" target="_blank" class="btn btn-danger" role="button" style="margin-left: 15px">Facebook</a>
+						<a href="https://www.instagram.com/vssut_robotics/" target="_blank" class="btn btn-danger" role="button" style="margin-left: 15px">
+							Instagram </a>
+						<a href="https://play.google.com/store/apps/details?id=com.gaurav.robotics_society&hl=en" target="_blank" class="btn btn-danger"
+						 role="button" style="margin-left: 15px">Play Store</a>
+					</div>
+					<!-- End Social Buttons -->
+				</div>
+				<!-- Hear Us Loud -->
+			</div>
+			<!-- End container -->
+		</section> 
+		<!-- End section -->
 		
 		<!--
 		Start Main Features
@@ -306,6 +381,40 @@
 					<!-- features item -->
 					<div id="features">
 						<!-- Features item-->
+					<!-- ------------------------------------------------------------------ -->
+							<!-- Features item-->
+					<div class="item">
+							
+							<div class="features-item">
+								
+								<!-- features media -->
+								<div class="col-md-6 feature-media wow fadeInUp" data-wow-duration="500ms">
+									<img src="img/blog/23.jpg" alt="KANAK NEWS, Odisha." class="img-responsive">
+								</div>
+								<!-- /features media -->
+								<div class="col-md-6 feature-media wow fadeInUp" data-wow-duration="500ms">
+									<img src="img/blog/24.jpg" alt="KANAK NEWS, Odisha." class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<!-- ------------------------------------------------------------------ -->		
+					<!-- ------------------------------------------------------------------ -->
+							<!-- Features item-->
+					<div class="item">
+							
+							<div class="features-item">
+								
+								<!-- features media -->
+								<div class="col-md-6 feature-media wow fadeInUp" data-wow-duration="500ms">
+									<img src="img/blog/22.png" alt="Featured in Odisha's esteemed daily - SAMBAD, Odisha." class="img-responsive">
+								</div>
+								<!-- /features media -->
+								<div class="col-md-6 feature-media wow fadeInUp" data-wow-duration="500ms">
+									<img src="img/blog/21.jpg" alt="Featured in Odisha's esteemed daily - The Prameya News, Odisha." class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<!-- ------------------------------------------------------------------ -->	
 					<div class="item">
 							
 							<div class="features-item">
@@ -337,6 +446,7 @@
 							</div>
 						</div>
 						<!-- ------------------------------------------------------------------ -->
+
 							<!-- Features item-->
 					<div class="item">
 							
@@ -500,7 +610,7 @@
 									<h3>The Official App Of Vssut Robotics</h3>
 									<p>In this mobile era, apps are the becoming the means of fastest information source & the most effective among hundreds of websites.A quick look on the outrage of ROBOTICS SOCIETY,an offline platform of all the resources and a handful support from the seniors of the society, all the statistics from tip to toe is in front of your screen in just one click on the App of "VSSUT ROBOTICS".</p>
 									<p>What we as a student want is the simplicity and focus that apps provide & this  is possible with just a click on the app.In a nutshell,without being online or waiting for the details to load we can open the basic page of the app and can get all the information.</p>
-									<a href="https://play.google.com/store/apps/details?id=com.vssut_robotics.application&hl=en" class="btn btn-transparent">Download The App</a>
+									<a href="https://play.google.com/store/apps/details?id=com.gaurav.robotics_society&hl=en" target="_blank" class="btn btn-transparent">Download The App</a>
 									<!--<a href="#" class="btn btn-transparent">Purchase Theme</a>-->
 								</div>
 								<!-- /features content -->
@@ -695,6 +805,7 @@
 								<li><a href="javascript:void(0)" class="filter" data-filter=".web">Aerial</a></li>
 								<li><a href="javascript:void(0)" class="filter" data-filter=".photoshop">Image Processing</a></li>
 								<li><a href="javascript:void(0)" class="filter" data-filter=".illustrator">Automatic</a></li>
+								<li><a href="soh.html" class="filter" data-filter=".iot">IOT</a></li>
 							</ul>
 						</div>
 						<!-- /portfolio item filtering -->
@@ -718,6 +829,34 @@
 								<i class="fa fa-plus fa-2x"></i>
 								</span>
 							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+					<!-- single portfolio item -->	
+					<li class="mix illustrator">
+						<a data-largesrc="img/portfolio/ROV1.png" data-title="ROUV" data-description="Remote Operated Underwater Vehicle(ROUV) is a tethered
+						underwater mobile device.It can reach a depth of 10 meters and has a runtime of 25 mins.It has auto-surfacing capability in case there is loss of connectivity.It can hold position against 12m/s turbulent flow,and has short range 3D environment mapping feature.It can also be used to detect cracks in the gates of dams.
+						">
+							<img src="img/portfolio/ROV1.png" alt="ROUV">
+							<div class="hover-mask">
+								<h3>ROUV</h3>
+								<span>
+								<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+
+					<li class="mix web">
+						<a href="javascript:void(0)" data-largesrc="img/portfolio/uav.png" data-title="UAV" data-description="An Unmanned Aerial Vehicle(UAV) commonly known as drone with Six propellers.Our main mission is to facilitate disaster management.It can take a payload of 2Kgs for medical and relief supplies.It has the following features i.e. GPS stabilization,Altitude and GPS hold,Real time mission planning and waypointy navigation,flight time of minimum 30 minutes,Telemetry.It has aerodynamically stabled structure,flight controller and parameters coded and designed by us.Currently working on surveillance and obstacle avoiding.  ">
+							<img src="img/portfolio/uav.png" alt="UAV">
+							<div class="hover-mask">
+								<h3>UAV</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>	
 						</a>
 					</li>
 					<!-- /single portfolio item -->
@@ -764,6 +903,36 @@
 						</a>
 					</li>
 					<!-- /single portfolio item -->
+
+					<!-- single portfolio item -->
+					<li class="mix app">
+						<a href="javascript:void(0)" data-largesrc="img/portfolio/HOVERPOD.jpg" data-title="HOVERPOD" data-description="Hoverpod is a bot which could float and move in response to mental commands.Hoverpod are capable of autonomous operation, they are quiet,safe,durable,
+
+						easy to operate,maintain and transport.You flow in a boat,ride in a truck, but fly in a Hoverpod.">
+							<img src="img/portfolio/HOVERPOD.jpg" alt="HOVERPOD">
+							<div class="hover-mask">
+								<h3>HOVERPOD</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+					<li class="mix illustrator">
+						<a href="javascript:void(0)" data-largesrc="img/portfolio/solar.png" data-title="SOLAR TRACKER" data-description="A solar tracker is a device that orients a payload towards the sun,Payload can be oriented in 2 axis.Payloads are usually solar panels,parabolic troughs,fresnel reflectors ,lenses or the mirrors of thea heliostat.">
+							<img src="img/portfolio/solar.png" alt="SOLAR TRACKER">
+							<div class="hover-mask">
+								<h3>SOLAR TRACKER</h3>
+								<span>
+									<i class="fa fa-plus fa-2x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					<!-- /single portfolio item -->
+
+					
 					
 					<!-- single portfolio item -->
 					<li class="mix app">
@@ -781,6 +950,7 @@
 					</li>
 					<!-- /single portfolio item -->
 					
+					
 					<!-- single portfolio item -->
 					<li class="mix web">
 						<a href="javascript:void(0)" data-largesrc="img/portfolio/Quadcopter.jpg" data-title="DRONE" data-description="Robotics Society has marvelled in the field of aerial robotics.This aerial vehicle has the ability to take aerial still photography,automatic safe-landing,constant altitude maintenance,GPS functionality,programmable automatic parcel delivery system and can be used for aerial survey.">
@@ -794,6 +964,8 @@
 						</a>
 					</li>
 					<!-- /single portfolio item -->
+					<!-- single portfolio item -->
+					
 					
 					<!-- single portfolio item -->
 					<li class="mix web">
@@ -1092,19 +1264,25 @@
 							<!-- /plan name & value -->
 							
 							<!-- plan description -->
-							<ul>
-								<li>2018: AIR-3 in MATLAB Innovation</li>
-								<li>2017: AIR-6</li>
-								<li>2016: AIR-20</li>
-								<li>2016: 3rd Prize In Implementing MathWorks In Nationals</li>
-								<li>2015: AIR-27</li>
-								<li>2011: AIR-4</li>
-								<!--<li>24/7 Tech Support</li>-->
-							</ul>
-							<!-- /plan description -->
-							
+							<div id="scrolling">
+								<div id="scroller">
+
+							        <ul>
+									 <li>2019: Shortlisted in Round 2-Abu Robocon 2019</li>
+								     <li>2018: AIR-3 in MATLAB Innovation</li>
+								     <li>2017: AIR-6</li>
+								     <li>2016: AIR-20</li>
+								     <li>2016: 3rd Prize In Implementing MathWorks In Nationals</li>
+								     <li>2015: AIR-27</li>
+								     <li>2011: AIR-4</li>
+								     <li></li>
+								       <!--<li>24/7 Tech Support</li>-->
+							        </ul>
+							       <!-- /plan description -->
+		                        </div>
+		                    </div>    					
 							<!-- signup button -->
-							<a class="btn btn-transparent" href="https://www.linkedin.com/in/vssut-robotics-129434149/">Details</a>
+							<a class="btn btn-transparent" href="https://www.linkedin.com/in/vssut-robotics-129434149/" target="_blank">Details</a>
 							<!-- /signup button -->
 							
 						</div>
@@ -1122,17 +1300,27 @@
 							</div>
 							<!-- /plan name & value -->
 							
-							<!-- plan description -->
-							<ul>
-								<li>Represented VSSUT at East Zone in DRUSE-2018</li>
-								<li>Top 10 in Smart India Hackathon 2018 Finals</li>
-								<li> DRUSE DRDO 2018: Zonal Finalist </li>
-								<li> Facilated by MCL and Muncipal Commisioner of Sambalpur for our Acheivements in the year 2017-18</li>
-								<li>Two Teams Grand Finalist at LNT Techgium 2018</li>
-								<li>2018-2nd prize at INFOSYS Robotics Camp,Bhubaneswar for our project on UAV</li>								
+							
+						  <!-- plan description -->
+						    <div id="scrolling">
+						    	<div id="scroller">
+							       <ul>
+									   <li>AIR 4 in  MathWorks Parrot MiniDrone Competition-2019 , NUMA Bengaluru</li>
+									   <li>Finalist Smart India Hackathon 2019-Software Edition</li>
+									   <li>3 Teams in National Finals at L&T Techgium 2019</li>
+									   <li>3 Teams Finalist Tata Crucible Hackathon 2019</li>
+							       	   <li>2nd Prize in Smart Odisha Hackathon-2018</li>
+								       <li>Represented VSSUT at East Zone in DRUSE-2018</li>
+								       <li>Top 10 in Smart India Hackathon 2018 Finals</li>
+								       <li> DRUSE DRDO 2018: Zonal Finalist </li>
+								       <li> Facilated by MCL and Muncipal Commisioner of Sambalpur for our Acheivements in the year 2017-18</li>
+								       <li>Two Teams Grand Finalist at LNT Techgium 2018</li>
+								       <li>2018-2nd prize at INFOSYS Robotics Camp,Bhubaneswar for our project on UAV</li>								
 
 								
-							</ul>
+						            </ul>
+						        </div>
+						    </div>        
 							<!-- /plan description -->
 							
 							<!-- signup button -->
@@ -1156,20 +1344,23 @@
 							<!-- /plan name & value -->
 							
 							<!-- plan description -->
-							<ul>
-								<li>2018: AIR -2</li>
-								<li>2017: AIR -4</li>
-								<li>2017: 2 teams from VSSUT were finalists</li>
-								<li>2016: 3 teams from Vssut Robotics were shortlisted</li>
-								<li>2015: AIR–7</li>
-								<li>2015: 3 teams were shortlisted</li>
-							<!--	<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>-->
-							</ul>
-							<!-- /plan description -->
-							
+							<div id="scrolling">
+								<div id="scroller">
+							       <ul>
+								     <li>2018: AIR -2</li>
+								     <li>2017: AIR -4</li>
+								     <li>2017: 2 teams from VSSUT were finalists</li>
+								     <li>2016: 3 teams from Vssut Robotics were shortlisted</li>
+								     <li>2015: AIR–7</li>
+								     <li>2015: 3 teams were shortlisted</li>
+							          <!--	   <li>10 GB Bandwidth</li>
+								      <li>24/7 Tech Support</li>-->
+							        </ul>
+							        <!-- /plan description -->
+							    </div>
+							</div>   
 							<!-- signup button -->
-							<a class="btn btn-transparent" href="https://www.linkedin.com/in/vssut-robotics-129434149/">Details</a>
+							<a class="btn btn-transparent" href="https://www.linkedin.com/in/vssut-robotics-129434149/" target="_blank">Details</a>
 							<!-- /signup button -->
 							
 						</div>
@@ -1188,28 +1379,42 @@
 							<!-- /plan name & value -->
 							
 							<!-- plan description -->
-							<ul>
-								<li>2018- 1st prize in ACIEQUOR at National Student's Space Challenge - IIT Kharagpur  and ISRO.</li>
-								<li>2018- 2nd Runner-Up Position in Kolkata Zonal of Techfest, IIT Bombay.</li>
-								<li>2018- 1st Prize in Robotics Event at Techfest-IIT Bhubaneswar.
-								<li>2017- 3rd prize at National Student’s Space Challenge – IIT Kharagpur and ISRO.</li>
-								<li>NIT Rourkela 2016 INNOVISION :  1st in Drone Wars & Tread-O-Quest</li>
-								<li>NIT Rourkela 2016 INNOVISION :  2nd prize in Death Race
-								<li>National Robotics Competition 2015: AIR-27</li>
-								<li>IIT Kharagpur 2015: 3rd position in Aerial Event</li>
-								<li> IIT Delhi: 3rd prize in Automatic Event (ROBOTRYST) </li>
-								<li>Robotics Event IIT BHubaneswar: 1st Position</li>
-								<li>IIT Kharagpur 2014: 2nd Position in Water Event(Boyant)</li>
-								<li>NIT Rourkela 2014:  1st position automatic Robotic Competition(Tred-o-Quest)</li>
-								<li>NIT Rourkela 2014:  2nd Position at NIT Rourkela in Underwater Robotics.</li>
-								<li>Kshitij IIT Kharagpur 2008: 1st Position </li>
-								<li>NEXUS,IIT Bombay 2008: 2nd Position</li>
-							</ul>
-							<!-- /plan description -->
+							<div id="scrolling">
+								<div id="scroller">
+
+							        <ul>
+									 <li>2018- AIR 1 in SONAROUS at National Student's Space Challenge - IIT Kharagpur  and ISRO.</li>
+									 <li>2019- 1st , 2nd & 3rd prize in Image Processing Event- NIT ROURKELA</li>
+									 <li>2019- 2nd prize in Hoverpod Event- NIT ROURKELA</li>
+									 <li>2019- 1st Prize in Robotics Event at Techfest-IIT Bhubaneswar</li>
+							         <li>2018- 1st prize in Hoverpod Event- NIT ROURKELA</li>	
+							         <li>2018- 1st prize in Line Follower Event- NIT ROURKELA</li>
+							         <li>2018- 1st prize in Balance Bot Event- NIT ROURKELA</li>
+							         <li>2018- 1st and 2nd prize in Image Processing Event- NIT ROURKELA.</li>	
+								     <li>2018- 1st prize in ACIEQUOR at National Student's Space Challenge - IIT Kharagpur  and ISRO.</li>
+								     <li>2018- 2nd Runner-Up Position in Kolkata Zonal of Techfest, IIT Bombay.</li>
+								     <li>2018- 1st Prize in Robotics Event at Techfest-IIT Bhubaneswar.
+								     <li>2017- 3rd prize at National Student’s Space Challenge – IIT Kharagpur and ISRO.</li>
+								     <li>NIT Rourkela 2016 INNOVISION :  1st in Drone Wars & Tread-O-Quest</li>
+								     <li>NIT Rourkela 2016 INNOVISION :  2nd prize in Death Race
+								     <li>National Robotics Competition 2015: AIR-27</li>
+								     <li>IIT Kharagpur 2015: 3rd position in Aerial Event</li>
+								     <li> IIT Delhi: 3rd prize in Automatic Event (ROBOTRYST) </li>
+								     <li>Robotics Event IIT BHubaneswar: 1st Position</li>
+								     <li>IIT Kharagpur 2014: 2nd Position in Water Event(Boyant)</li>
+								     <li>NIT Rourkela 2014:  1st position automatic Robotic Competition(Tred-o-Quest)</li>
+								     <li>NIT Rourkela 2014:  2nd Position at NIT Rourkela in Underwater Robotics.</li>
+								     <li>Kshitij IIT Kharagpur 2008: 1st Position </li>
+								     <li>NEXUS,IIT Bombay 2008: 2nd Position</li>
 							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="https://www.linkedin.com/in/vssut-robotics-129434149/">Details</a>
+							           <!-- /plan description -->
+							
+							          <!-- signup button -->
+							        </ul>      
+                                </div>
+                            </div>
 							<!-- /signup button -->
+							    <a class="btn btn-transparent" href="https://www.linkedin.com/in/vssut-robotics-129434149/" target="_blank">Details</a>
 							
 						</div>
 					</article>
@@ -1274,8 +1479,8 @@
 							
 							<!-- member name & designation -->
 							<div class="member-title">
-								<h3>Prof. Sudhanshu Sekhar Das </h3>
-								<span>Dean,Students' Welfare</span>
+								<h3>Prof.Sudhanshu Sekhar Das </h3>
+								<span>Dean,Student's Welfare</span>
 							</div>
 							<!-- /member name & designation -->
 							
@@ -1309,8 +1514,9 @@
 							
 							<!-- member name & designation -->
 							<div class="member-title">
-								<h3>Dr. Harish Kumar Sahoo</h3>
+								<h3>Dr. Harish Kumar Sahoo<br><br></h3>
 								<span>Vice-President,Technical Society</span>
+
 							</div>
 							<!-- /member name & designation -->
 							
@@ -1327,7 +1533,7 @@
                        <article class="team-mate" style="background-color: #4B77BE">
 							<div class="member-photo">
 								<!-- member photo -->
-								<img class="img-responsive" src="img/team/Faculty.jpg" alt="Dr. Bikramaditya Das">
+								<img class="img-responsive" src="img/team/fa.jpg" alt="Mr.Bandan Kumar Bhoi">
 								<!-- /member photo -->
 								
 								<!-- member social profile -->
@@ -1344,7 +1550,7 @@
 							
 							<!-- member name & designation -->
 							<div class="member-title">
-								<h3>Dr. Bikramaditya Das</h3>
+								<h3>Mr.Bandan Kumar Bhoi<br><br></h3>
 								<span>Faculty Advisor,Robotics Society</span>
 							</div>
 							<!-- /member name & designation -->
@@ -1362,15 +1568,15 @@
                        <article class="team-mate" style="background-color: #4B77BE">
 							<div class="member-photo">
 								<!-- member photo -->
-								<img class="img-responsive" src="img/team/shiti.jpg" alt="Shitikantha Bagh">
+								<img class="img-responsive" src="img/team/abhi1.jpg" alt="Abhishek Das">
 								<!-- /member photo -->
 								
 								<!-- member social profile -->
 								<div class="mask">
 									<ul class="clearfix">
-										<li><a href="https://www.facebook.com/shitikanth.bagh"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="https://www.facebook.com/agrawalabhishek252" target="_blank"><i class="fa fa-facebook"></i></a></li>
 										<!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-										<li><a href="https://www.linkedin.com/in/shitikantha-bagh-93479b118/"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/abhishek-agrawal-41a171173/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 										<!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
 									</ul>
 								</div>
@@ -1379,7 +1585,7 @@
 							
 							<!-- member name & designation -->
 							<div class="member-title">
-								<h3>Shitikantha Bagh</h3>
+								<h3>Abhishek Agrawal<br><br></h3>
 								<span>Secretary,Robotics Society</span>
 							</div>
 							<!-- /member name & designation -->
@@ -1443,7 +1649,7 @@
 									</style>
 									<div class="row1">
 										<div class="title text-center wow fadeInUp" data-wow-duration="500ms">
-				<!-- End row -->				<a class="btn btn-green animated fadeInUp" href="team.html">More</a>
+				<!-- End row -->				<a class="btn btn-danger animated fadeInUp" href="team.html">More</a>
 										</div>
 									</div>
 			   	<!-- End container -->
@@ -1516,12 +1722,17 @@
      
 	
        <div class="gallery">
+		  <a href="#" data-caption="Our Team"><img src="imgs/19.jpg"></a>
+
+       	  <a href="#" data-caption="Our Team"><img src="imgs/14.jpg"></a>
           <a href="#" data-caption="Our Team"><img src="imgs/10.jpg"></a>
+          <a href="#" data-caption="Our Team"><img src="imgs/15.jpg"></a>
           <a href="#" data-caption="Abu Robocon 2018"><img src="imgs/13.jpg"></a>
           <a href="#" data-caption="Abu Robocon 2017: AIR-6"><img src="imgs/1.jpg"></a>
           <a href="#" data-caption="Abu Robocon 2016"><img src="imgs/2.jpg"></a>
-          <a href="#" data-caption="Abu Robocon 2015" style="font size:20px"><img src="imgs/3.jpg"></a>
-          <a href="#" data-caption="Abu Robocon 2011" style="font size:20px"><img src="imgs/11.jpg"></a>
+          <a href="#" data-caption="Abu Robocon 2015" style="font-size:20px"><img src="imgs/3.jpg"></a>
+          <a href="#" data-caption="Abu Robocon 2011" style="font-size:20px"><img src="imgs/11.jpg"></a>
+          <a href="#" data-caption="INNOVISION 2K18"><img src="imgs/16.jpg"></a>
           <a href="#" data-caption="RoboGames"><img src="imgs/4.jpg"></a>
           <a href="#" data-caption="Hybrid Bot"><img src="imgs/5.jpg"></a>
           <a href="#" data-caption="Independence Day"><img src="imgs/6.jpg"></a>
@@ -1704,14 +1915,14 @@
 								
 								<!-- client photo -->
 								<div class="client-thumb">
-									<img src="img/team/dora_sir.jpg" class="img-responsive" alt="Mr.Lingraj Dora">
+									<img src="img/team/das_sir.jpg" class="img-responsive" alt="Mr.Lingraj Dora">
 								</div>
 								<!-- /client photo -->
 								
 								<!-- client info -->
 								<div class="client-info">
 									<div class="client-meta">
-										<h3>Mr.Lingraj Dora</h3>
+										<h3>Dr. Bikramaditya Das</h3>
 										<span>Ex.Faculty Advisor</span>
 									</div>
 									<div class="client-comment">
@@ -1725,7 +1936,7 @@
                                             achievements and wish them luck for their
                                             bright future.&quot;</p>
 										<ul class="social-profile">
-										<li><a href="https://www.facebook.com/lingraj.dora.5"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+										<!--<li><a href="https://www.facebook.com/lingraj.dora.5"><i class="fa fa-facebook-square fa-lg"></i></a></li>-->
 											<!--<li><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>-->
 											<!--<li><a href="https://www.linkedin.com/in/manikantbehera/"><i class="fa fa-linkedin-square fa-lg"></i></a></li>-->
 										</ul>
@@ -1869,6 +2080,60 @@
 								<!-- /client info -->
 							</div>
 							<!-- /testimonial single -->
+							<!-- testimonial single -->
+							<div class="item text-center">
+								
+								<!-- client photo -->
+								<div class="client-thumb">
+									<img src="img/team/hr1.jpg" class="img-responsive" alt="AKLESH KUMAR MALLA">
+								</div>
+								<!-- /client photo -->
+								
+								<!-- client info -->
+								<div class="client-info">
+									<div class="client-meta">
+										<h3>Aklesh Kumar Malla</h3>
+										<span>Former Secretary,2017</span>
+									</div>
+									<div class="client-comment">
+										<p>“No matter what people tell you,technology and innovation have the supreme power to change the world to a 
+                                            humongous extent.The Robotics Society of VSSUT here,always work it's level best towards designing and building various innovative technologies,surge towards the development of smart robots to aid for the betterment and welfare of the human society.I am glad to be a part of this wonderful club.
+									    ”</p>
+										<ul class="social-profile">
+											<li><a href="https://www.facebook.com/akleshmalla"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+											<!--<li><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>-->
+											<li><a href="https://www.linkedin.com/in/aklesh-kumar/"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- /testimonial single -->
+							<div class="item text-center">
+								
+								<!-- client photo -->
+								<div class="client-thumb">
+									<img src="img/team/tt33.jpg" class="img-responsive" alt="Shitikantha Bagh">
+								</div>
+								<!-- /client photo -->
+								
+								<!-- client info -->
+								<div class="client-info">
+									<div class="client-meta">
+										<h3>Shitikantha Bagh</h3>
+										<span>Former Secretary,2018</span>
+									</div>
+									<div class="client-comment">
+										<p>“The requirement and spark of technology and innovation can be seen transparently in this world. The herculastic need of robotics and it's application should be cheered as it is serving people.
+											Improvising new minds and preparing them to serve mankind through robotics and technology this society has been volunteering it's time and efforts. I am glad that I got an opportunity to be a part of this club.
+									    ”</p>
+										<ul class="social-profile">
+											<li><a href="https://www.facebook.com/shitikanth.bagh"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+											<!--<li><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>-->
+											<li><a href="https://www.linkedin.com/in/shitikantha-bagh-93479b118/"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
                             	
 							
 							
@@ -2095,7 +2360,7 @@
 		<!-- Start Our Team
 		=========================================== -->
 	
-		<section id="contact-us" class="bg-one" style="background-color: #2962ff">
+		<section id="social-media" class="bg-one" style="background-color: #2962ff">
 			<div class="container">
 				<div class="row">
 				
@@ -2105,7 +2370,7 @@
 						<div class="border"></div>
 					</div>
                     <div class="text-center">
-                        <img class="center-block img-responsive" src="img/bbsrbuzz.png" alt="Bhubaneswar Buzz"/>
+                        <a href="https://www.bhubaneswarbuzz.com/tag/vssut" target="_blank"><img class="center-block img-responsive" src="img/bbsrbuzz.png" alt="Bhubaneswar Buzz"/></a>
                     </div>
                     
                     
@@ -2125,15 +2390,15 @@
 						<!-- Footer Social Links -->
 						<div class="social-icon">
 							<ul>
-								<li><a href="https://www.facebook.com/vssutrobotics/"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://twitter.com/societyrobotics"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="https://play.google.com/store/apps/details?id=com.vssut_robotics.application&hl=en"><i><img class="icon icons8-Playstore-Filled" width="48" height="48" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACYElEQVRoQ+2Y4XHUQAyF36uAUAFHBQkV5EoIFRAqSFIBoQKOCiAVkFQAVMBRAaGDUMHLPEZmbg7bJ3tMvDl2f2ttffuklbTEnizuCQcqSGlKVkUyikhaAHgWtj9J3mb2jbH5J4pIOgHwDoBBNtcawAXJL2Oc7dszOYgkA5wD+AXgGoCdPwioV+HMiuTFlDCTgkgygEG+A1iSvNt0NkLNcIehzGoqmMlAJPnUf4QSR9sQjcNhZ5WeAHjeZTcUcEqQRo3XJD/2OSLpFMAHADtts0BpEEmO7+3k3fyPE/wIwNPIiSYf2nyxega/InkqaQnguMXwluRVBmYIiFIfJBmOfU7YfyW5lHQJ4E2bPcmUjykj/0DSfwFyE2F36BNMKPI2FChKEVfshSQXueMESJMXVrgokBuSJ1sgTvxPHTniyr6KUG1AXE/O5s6RNckXknxjLUheS+p0DMB7kufRxvhWWkv6FjfeXywPnex/Wo5wsEuNxtGXBo5LpGlpWgV8aJDETTvOpIJ0nVu2jow79+5dVZEJFHEL7/a9rXcaLNicijS1wbXE13Az6g6G8IbZQTbmDzeE7nQ9fwxexYBErXD7b6C+1r64OvI7tNq8imbS4eZRN7WKUmTb45gQDbQz3EoH8YTo1sQjb+8qFkSSu1zni2F2ruJAIj+sgrvk9CoGJN6yDOC6MnjNDhLvVw4j15BUGLVRzgoSFb3t7fdRKTLY2b4NcypSQUrLkapIVcRzSzYO6syePakOu3r9dh1gPImObjVGCnPnJ9XM3nSOZD42p00FmfP0W+tNaQ6N9WdvQuseW2BZQgs+Z+QAAAAASUVORK5CYII="></i></a></li>
-								<li><a href="https://www.youtube.com/channel/UCfrM26pYkyk8JtW-G0mcDNQ"><i class="fa fa-youtube"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/vssut-robotics-129434149/"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="https://github.com/Vssut-Robotics"><i class="fa fa-github"></i></a></li>
-								<li><a href="https://www.instagram.com/vssut_robotics/"><i class="fa fa-instagram"></i></a></li>
-
+								<li><a href="https://www.facebook.com/vssutrobotics/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/societyrobotics" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://play.google.com/store/apps/details?id=com.gaurav.robotics_society&hl=en" target="_blank"><i><img class="icon icons8-Playstore-Filled" width="48" height="48" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACYElEQVRoQ+2Y4XHUQAyF36uAUAFHBQkV5EoIFRAqSFIBoQKOCiAVkFQAVMBRAaGDUMHLPEZmbg7bJ3tMvDl2f2ttffuklbTEnizuCQcqSGlKVkUyikhaAHgWtj9J3mb2jbH5J4pIOgHwDoBBNtcawAXJL2Oc7dszOYgkA5wD+AXgGoCdPwioV+HMiuTFlDCTgkgygEG+A1iSvNt0NkLNcIehzGoqmMlAJPnUf4QSR9sQjcNhZ5WeAHjeZTcUcEqQRo3XJD/2OSLpFMAHADtts0BpEEmO7+3k3fyPE/wIwNPIiSYf2nyxega/InkqaQnguMXwluRVBmYIiFIfJBmOfU7YfyW5lHQJ4E2bPcmUjykj/0DSfwFyE2F36BNMKPI2FChKEVfshSQXueMESJMXVrgokBuSJ1sgTvxPHTniyr6KUG1AXE/O5s6RNckXknxjLUheS+p0DMB7kufRxvhWWkv6FjfeXywPnex/Wo5wsEuNxtGXBo5LpGlpWgV8aJDETTvOpIJ0nVu2jow79+5dVZEJFHEL7/a9rXcaLNicijS1wbXE13Az6g6G8IbZQTbmDzeE7nQ9fwxexYBErXD7b6C+1r64OvI7tNq8imbS4eZRN7WKUmTb45gQDbQz3EoH8YTo1sQjb+8qFkSSu1zni2F2ruJAIj+sgrvk9CoGJN6yDOC6MnjNDhLvVw4j15BUGLVRzgoSFb3t7fdRKTLY2b4NcypSQUrLkapIVcRzSzYO6syePakOu3r9dh1gPImObjVGCnPnJ9XM3nSOZD42p00FmfP0W+tNaQ6N9WdvQuseW2BZQgs+Z+QAAAAASUVORK5CYII="></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UCfrM26pYkyk8JtW-G0mcDNQ" target="_blank"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/vssut-robotics-129434149/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/Vssut-Robotics" target="_blank"><i class="fa fa-github"></i></a></li>
+								<li><a href="https://www.instagram.com/vssut_robotics/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 							</ul>
+						
 							<!-- hitwebcounter Code START -->
 										<div align="right">
 										<img src="http://hitwebcounter.com/counter/counter.php?page=7001541&style=0006&nbdigits=5&type=page&initCount=100" title="" Alt=""   border="0"> <br>Total visits
@@ -2171,9 +2436,12 @@
 		<!-- 
 		Essential Scripts
 		=====================================-->
+
 		
 		<!-- Main jQuery -->
 		<script src="js/jquery-1.12.2.min.js" ></script>
+				<!-- Custom js -->
+		<script src="js/custom.js"></script>
 		<!-- Bootstrap 3.1 -->
 		<script src="js/bootstrap.min.js" ></script>
 		<!-- Slitslider -->
@@ -2186,7 +2454,7 @@
 		<!-- Portfolio Filtering -->
 		<script src="js/jquery.mixitup.min.js" ></script>
 		<!-- Custom Scrollbar -->
-		<script src="js/jquery.nicescroll.min.js"></script>
+		<script src="js/jquery.nicescroll1.min.js"></script>
 		<!-- Jappear js -->
 		<script src="js/jquery.appear.js"></script>
 		<!-- Pie Chart -->
@@ -2196,7 +2464,7 @@
 		<!-- tweetie.min -->
 		<script src="js/tweetie.min.js" ></script>
 		<!-- Google Map API -->
-		<script  type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBM8R0qswZUlg1zKSgyDHoeVMdf_XE66Ic&callback=myMap"></script>
+		<script type="text/javascript" defer src="https://maps.google.com/maps/api/js?key=AIzaSyBM8R0qswZUlg1zKSgyDHoeVMdf_XE66Ic&callback=myMap"></script>
 		<!-- Highlight menu item -->
 		<script src="js/jquery.nav.js"></script>
 		<!-- Sticky Nav -->
@@ -2209,8 +2477,7 @@
 		<script src="js/jquery.fitvids.js"></script>
 		<!-- Grid js -->
 		<script src="js/grid.js"></script>
-		<!-- Custom js -->
-		<script src="js/custom.js"></script>
+
 
 		<script type="text/javascript" src="js/jquery.flipping_gallery.min.js" ></script>
 
